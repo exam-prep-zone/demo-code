@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# DB
+prisma/migrations/
+
+# Env & secrets
+.env
+.env.*
+.env.local
+.env.production
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Static assets (handled by cloud)
+public/images/
+public/icons/
+
+# OS
+.DS_Store
+Thumbs.db
